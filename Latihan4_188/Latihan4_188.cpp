@@ -21,9 +21,9 @@ int main()
 		cout << "=======MENU ==========" << endl;
 		cout << "====================" << endl;
 		cout << "1. Luas Persegi " << endl;
-		cout << "2. Luas Lingkaran" << endl;
-		cout << "3. Luas Segitiga" << endl;
-		cout << "4. Exit" << endl;
+		cout << "2. Luas Lingkaran " << endl;
+		cout << "3. Luas Segitiga " << endl;
+		cout << "4. Exit " << endl;
 		cout << "Pilihan (1/2/3/4): ";
 		cin >> pilihan;
 
@@ -44,6 +44,8 @@ int main()
 		case 3:
 			cout << " Masukkan Alas = ";
 			cin >> alas;
+			cout << "Masukkan inggi = ";
+			cin >> tinggi;
 			cout << "Luas Segitiga = " << LuasSegitiga(alas, tinggi);
 			break;
 		case 4:
